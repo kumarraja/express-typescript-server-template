@@ -1,0 +1,33 @@
+{
+  "name": "node-express-typescript-tut-proj",
+  "version": "1.0.0",
+  "description": "Tutorial walk through project",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarraja/node-typescript-sample.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "tutorial",
+    "sample",
+    "project"
+  ],
+  "author": "kumarraja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarraja/node-typescript-sample/issues"
+  },
+  "homepage": "https://github.com/kumarraja/node-typescript-sample#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  }
+}
